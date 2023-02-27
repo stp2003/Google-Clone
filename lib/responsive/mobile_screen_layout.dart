@@ -27,7 +27,7 @@ class MobileScreenLayout extends StatelessWidget {
           onPressed: () {},
         ),
 
-        //**
+        //** for tabs ->
         title: SizedBox(
           width: size.width * 0.3363323,
           child: const DefaultTabController(
@@ -91,7 +91,7 @@ class MobileScreenLayout extends StatelessWidget {
                     ],
                   ),
 
-                  //?? web footer ->
+                  //?? mobile footer ->
                   const MobileFooter(),
                 ],
               ),
